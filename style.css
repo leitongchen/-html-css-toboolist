@@ -2,4 +2,34 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body {
+    background-color: rgb(194, 194, 194);
+}
+
+header {
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+figure {
+    display: inline-block;
+    height: 100%;
+    line-height: 80px;
+    margin-left: 40px;
+}
+
+#logo{
+    vertical-align: middle;  
+}
+
+#logotype {
+    display: inline-block;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+

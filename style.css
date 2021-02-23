@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(226, 225, 225);
+    background-color: rgb(235, 235, 235);
 }
 
 header {
@@ -15,20 +15,16 @@ header {
 }
 
 /* logo header */
-figure {
-    display: inline-block;
-    height: 100%;
-    line-height: 80px;
-    margin-left: 40px;
-}
 #logo{
     vertical-align: middle;  
+    margin-left: 40px;
 }
 #logotype {
     display: inline-block;
     line-height: 80px;
     font-size: 30px;
     font-weight: bold;
+    vertical-align: middle;
 }
 
 /* sezione principale */
@@ -41,14 +37,18 @@ main {
     margin-top: 40px;
 }
 
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
 /* barra navigazione */
 nav li {
-    list-style-type: none;
-    display: inline;
     margin: 0 10px;
-    line-height: 80px;
+    line-height: 20px;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 5px 10px;
+    margin: 10px 0;
 }
 
 #add-task {
@@ -62,5 +62,67 @@ nav li {
 }
 
 hr {
-    border: 2px solid rgb(226, 225, 225);
+    border: 1px solid rgb(235, 235, 235);
+}
+
+/* task section */
+.task-section {
+    margin: 20px 0;
+}
+
+/* freccia sotto per ciascuna sezione*/
+.task-section h1::before {
+    content: "\25BC";
+    font-size: small;
+}
+
+.task-section li {
+    line-height: 30px
+}
+
+/* simbolo checked */
+.checked {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.single-task {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.coloured-tag {
+    vertical-align: middle;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    font-size: 11px;
+}
+
+#editorial {
+    background-color: rgb(40, 106, 228);
+}
+#q1 {
+    background-color: rgb(173, 83, 233);
+}
+#recruiting {
+    background-color: rgb(63, 177, 107);
+}
+#mobile {
+    background-color: rgb(243, 147, 56);
+}
+#website {
+    background-color: rgb(248, 86, 167);
+}
+#sales {
+    background-color: rgb(147, 230, 255);
 }

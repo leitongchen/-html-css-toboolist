@@ -122,11 +122,13 @@ hr {
     font-size: 15px;
 }
 
+/* tag colorati */
 .coloured-tag {
     border-radius: 15px;
     padding: 0 20px;
     color: white;
     font-size: 11px;
+    font-weight: bold;
 }
 
 #editorial {
@@ -146,4 +148,8 @@ hr {
 }
 #sales {
     background-color: rgb(147, 230, 255);
+}
+
+.coloured-tag:hover, nav li:hover {
+    text-decoration: underline;
 }

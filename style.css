@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(226, 225, 225);
 }
 
 header {
@@ -14,17 +14,16 @@ header {
     background-color: rgb(255, 255, 255);
 }
 
+/* logo header */
 figure {
     display: inline-block;
     height: 100%;
     line-height: 80px;
     margin-left: 40px;
 }
-
 #logo{
     vertical-align: middle;  
 }
-
 #logotype {
     display: inline-block;
     line-height: 80px;
@@ -32,4 +31,36 @@ figure {
     font-weight: bold;
 }
 
+/* sezione principale */
+main {
+    width: 80vw;
+    height: 500px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 40px;
+}
 
+/* barra navigazione */
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 10px;
+    line-height: 80px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#add-task {
+    background-color: rgb(50, 180, 240);
+    color: white;
+}
+
+#add-section {
+    border: 1px solid rgb(209, 209, 209);
+    color: rgb(218, 218, 218);
+}
+
+hr {
+    border: 2px solid rgb(226, 225, 225);
+}

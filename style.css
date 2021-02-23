@@ -9,6 +9,11 @@ body {
     background-color: rgb(235, 235, 235);
 }
 
+.wrapper {
+    width: 80%;
+    margin:auto;
+}
+
 header {
     height: 80px;
     background-color: rgb(255, 255, 255);
@@ -30,7 +35,6 @@ header {
 /* sezione principale */
 main {
     width: 80vw;
-    height: 500px;
     margin: auto;
     background-color: white;
     border-radius: 5px;
@@ -39,11 +43,11 @@ main {
 
 ul li {
     list-style-type: none;
-    display: inline-block;
 }
 
 /* barra navigazione */
 nav li {
+    display: inline-block;
     margin: 0 10px;
     line-height: 20px;
     border-radius: 5px;
@@ -63,6 +67,7 @@ nav li {
 
 hr {
     border: 1px solid rgb(235, 235, 235);
+    width: 100%;
 }
 
 /* task section */
@@ -77,33 +82,46 @@ hr {
 }
 
 .task-section li {
-    line-height: 30px
+    line-height: 30px;
+    display: block;
+    margin: 10px 0;
+}
+
+/* vertical align middle settaggio per tutti gli elementi della riga */
+.checked, .unchecked, .single-task, .coloured-tag {
+    vertical-align: middle;
+    display: inline-block;
 }
 
 /* simbolo checked */
 .checked {
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    line-height: 20px;
-    color: green;
-    border: 2px solid green;
-    border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
+    color: rgb(106, 201, 106);
+    border-color: rgb(106, 201, 106);
 }
 
+.unchecked {
+    color: rgb(167, 24, 24);
+    border-color: rgb(167, 24, 24);
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid;
+}
+
+/* Nome della task */
 .single-task {
-    display: inline-block;
-    vertical-align: middle;
     font-weight: 300;
     font-size: 15px;
 }
 
 .coloured-tag {
-    vertical-align: middle;
     border-radius: 15px;
-    padding: 10px;
+    padding: 0 20px;
     color: white;
     font-size: 11px;
 }

@@ -131,22 +131,22 @@ hr {
     font-weight: bold;
 }
 
-#editorial {
+.editorial {
     background-color: rgb(40, 106, 228);
 }
-#q1 {
+.q1 {
     background-color: rgb(173, 83, 233);
 }
-#recruiting {
+.recruiting {
     background-color: rgb(63, 177, 107);
 }
-#mobile {
+.mobile {
     background-color: rgb(243, 147, 56);
 }
-#website {
+.website {
     background-color: rgb(248, 86, 167);
 }
-#sales {
+.sales {
     background-color: rgb(147, 230, 255);
 }
 

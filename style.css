@@ -15,21 +15,18 @@ body {
 }
 
 header {
-    height: 80px;
     background-color: rgb(255, 255, 255);
+    padding: 20px 40px;
 }
 
 /* logo header */
-#logo{
+#logo, #logotype {
     vertical-align: middle;  
-    margin-left: 40px;
 }
 #logotype {
     display: inline-block;
-    line-height: 80px;
     font-size: 30px;
     font-weight: bold;
-    vertical-align: middle;
 }
 
 /* sezione principale */
@@ -43,6 +40,7 @@ main {
     padding-bottom: 30px;
 }
 
+/* reset stile delle liste */
 ul li {
     list-style-type: none;
 }
